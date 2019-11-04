@@ -1,0 +1,208 @@
+/* ========== *
+* Challenge 1 *
+* =========== */
+
+// Declare your bindings/variables below
+  let 	firstName = 'Vivi';
+  let 	lastName	= 'Espinola';
+  let		isHuman 	= true;	
+
+
+
+// Uncomment the lines below and run the code to test your solution
+  console.log(firstName);
+  console.log(lastName);
+  console.log(isHuman);
+
+//Comment them back out with two forward slashes at the beginning once you have the expected output
+
+
+/* ========== *
+* Challenge 2 *
+* =========== */
+
+// Reassign your variables below
+  firstName ="Vivian";
+  lastName 	="Marandari";
+  isHuman 	= false;
+
+// Uncomment the lines below and run the code to test your solution
+  console.log(firstName);
+  console.log(lastName);
+  console.log(isHuman);
+
+
+// After fixing the Type Error in the console and succesfully printing all your reasiggned variables to the console comment out all the lines of code above.
+
+
+/* ========== *
+* Challenge 3 *
+* =========== */
+
+// Declare your bindings/variables below
+  const age 			=	32;
+  const birthday	=	1987;
+  let 	sum				= age + birthday
+
+// Uncomment the lines below and run the code to test your solution
+// console.log(sum);
+
+//Comment out the console log above with two forward slashes at the beginning once you have the expected output
+
+
+/* ========== *
+* Challenge 4 *
+* =========== */
+
+// Declare your bindings/variables below
+  const favoriteFood = "rice";
+  const favoriteDrink = 'te';
+  const favoriteColor = `blue`;
+
+// Uncomment the lines below and run the code to test your solution
+  console.log(favoriteFood);
+  console.log(favoriteDrink);
+  console.log(favoriteColor);
+
+
+// After succesfully printing all your variables to the console comment out all the lines of code above.
+
+
+/* ========== *
+* Challenge 5 *
+* =========== */
+
+// Uncomment the lines below and fix any errors
+  const string1 = 'i love this 1';
+  let 	string2 = "i love this 2";
+  let		string3 = "i love this 3";
+  let 	string4 = "i love this 4";
+  const string5 = "i'm in love with this 5";
+  var 	string6 = "i'm in love with this 6";
+  const string7 = "i'm in love with this 7"
+
+// After fixing the errors above test your solutions by running the logs below
+  console.log(`string4: ${string1}`);
+  console.log(`string4: ${string2}`);
+  console.log(`string4: ${string3}`);
+  console.log(`string4: ${string4}`);
+  console.log(`string4: ${string5}`);
+  console.log(`string4: ${string6}`);
+  console.log(`string4: ${string7}`);
+
+// After succesfully printing all the variables to the console comment out all the lines of code above.
+
+
+/* ========== *
+* Challenge 6 *
+* =========== */
+
+// Create your variables and print them to the console below.
+  let isLearning	= true;
+  let isBored			=	false;
+
+	console.log(isLearning, isBored);
+
+/* ========== *
+* Challenge 7 *
+* =========== */
+
+// Uncomment the code below and get the console logs to successfully print true the console. Don't change the variable declarations, only edit what is being printed to the console.
+
+  const isTrue = true;
+  const isFalse = false;
+
+  console.log(isTrue === true);
+  console.log(isTrue === true);
+  console.log(isFalse === false);
+  console.log(isFalse === false);
+  console.log(isFalse === !true);
+  console.log(isTrue === !false);
+  console.log('false' === 'false');
+  console.log('true' === 'true');
+
+// After getting all the console logs to print out the boolean value true, comment out all the lines of code above.
+
+
+/* ========== *
+* Challenge 8 *
+* =========== */
+
+// Create your array and print it the console below
+	const myArray = ['Vivi', 32, true];
+  console.log(myArray);
+
+
+/* ========== *
+* Challenge 9 *
+* =========== */
+
+// Print each item at it's corresponding index to the console below.
+  console.log(myArray[0]);
+  console.log(myArray[1]);
+  console.log(myArray[2]);
+
+
+/* ========== *
+* Challenge 10 *
+* =========== */
+
+// Create an element at the 33rd index in myArray and print the entire array to the console.
+// myArray[...] =
+// console.log(myArray);
+// Uncomment the lines below to test your code
+// console.log(myArray.length === 34);
+// After getting the console log above to print true comment out the code from challenge 8 to challenge 10.
+  myArray[33] = 'array 33';
+
+  console.log(myArray.length);
+  console.log(myArray);
+
+
+
+/* ========== *
+* Challenge 11 *
+* =========== */
+
+// Create an object with three key/value pairs where are keys are: name, age, hasDog.
+
+  let myObject = { 
+    name: 'vivi', 
+    age:32, 
+    hasDog: true,
+  };
+  console.log(myObject);
+
+
+/* ========== *
+* Challenge 12 *
+* =========== */
+
+// Individually print each of the values in your object to the console using dot and bracket notation.
+  console.log(myObject.name);
+  console.log(myObject['name']);
+  console.log(myObject.age);
+  console.log(myObject['age']);
+  console.log(myObject.hasDog);
+  console.log(myObject['hasDog']);
+
+// After successfully printing each value with both bracket and dot notation to the console comment out the console logs above.
+
+
+/* ========== *
+* Challenge 13 *
+* =========== */
+
+// Add a key of partner with a value of your partners name to your previously defined object
+  myObject ={
+   partnerName: 'Nelia', 
+  }
+
+// Now let's change your age key to have value of 999.
+	myObject.age = 999;
+
+// Test your work by uncommenting the console logs below and making sure you get the expected output.
+  console.log(myObject.partnerName)
+  console.log(myObject.age === 999)
+
+// After getting the console logs above to print all your expected changes comment out the code from challenge 11 to challenge 13.
