@@ -1,0 +1,208 @@
+/* ========== *
+* Challenge 14 *
+* =========== */
+	console.log('--------Challenge 14');
+// Uncomment the code below and get the console logs to successfully print true the console.
+  console.log(true && true)
+  console.log(true || true)
+  console.log(false || true)
+  console.log(true || false)
+  console.log(true && !false)
+
+
+// After getting all the console logs to print out the boolean value true, comment out all the lines of code above.
+
+
+
+/* ========== *
+* Challenge 15 *
+* =========== */
+	console.log('--------Challenge 15');
+// Uncomment the code below and get the console logs to successfully print true the console.
+  console.log(6 != 5);
+  console.log('six' === 'six');
+  console.log(6 != 5);
+  console.log('5' == 5);
+  console.log(5 === 5);
+  console.log('5' !== 5);
+  console.log(6 > 5);
+  console.log(6 === 6);
+  console.log(6 >= 6);
+  console.log(2 < 8);
+  console.log(7 <= 7);
+
+// After getting all the console logs to print out the boolean value true, comment out all the lines of code above.
+
+
+
+/* ========== *
+* Challenge 16 *
+* =========== */
+	console.log('--------Challenge 16');
+// Declare two variables and set them equal to the right specifications to make all three instances of the control flow hit.
+
+  let country = 'USA';
+  let age = 19;
+  if (age >= 18 && country === 'London') {
+    console.log('you can legally drink alcohol in London')
+  } else if (age <= 21 && country === 'USA') {
+    console.log('you cannot legally drink alcohol in // America')
+  } else {
+   console.log('age and country are not specified for')
+  }
+
+// After getting each if/else block to successfully log to the console comment out the code above.
+
+
+
+/* ========== *
+* Challenge 17 *
+* =========== */
+	console.log('--------Challenge 17');
+// Utilize the two constants below and have them match the statements within our control flow. Get each condition within our control flow statement to be matched. Run the code each time you change these variable delcarations.
+
+const mood = 'happy';
+const weather = 'rain';
+
+ if (mood === 'happy') {
+  if (weather === 'rain') {
+    console.log('you like when it rains');
+  } else if (weather === 'snow') {
+    console.log('you like when it snows');
+  } else if (weather === 'sun') {
+    console.log('you like when its sunny');
+  } else {
+    console.log('enter a weather condition our control flow accounts for while you feel happy');
+  }
+} else if (mood === 'sad') {
+  if (weather === 'rain') {
+    console.log('the rain makes you sad');
+  } else if (weather === 'snow') {
+    console.log('the snow makes you sad');
+  } else if (weather === 'sun') {
+    console.log('the sun makes you sad');
+  } else {
+    console.log('enter a weather condition our control flow accounts for while you feel sad');
+  }
+} else {
+  console.log('enter a mood that our control flow accounts for');
+}
+
+// After getting each if/else block to successfully log to the console comment out the code above.
+
+
+
+/* ========== *
+* Challenge 18 *
+* =========== */
+	console.log('--------Challenge 18');
+// Construct a for loop below that prints the numbers 1 to 5.
+
+  for(let a=1; a<=5; a++){
+    console.log(a);
+  }
+
+// Comment out your code after you finish.
+
+
+
+/* ========== *
+* Challenge 19 *
+* =========== */
+	console.log('--------Challenge 19');
+// Construct a for loop below that uses the length constant in it's conditional. Print 'hello world' to the console on each succesful iteration.
+	const length = 20;
+	for(let b=1; b<=length; b++){
+    console.log('hello world');
+  }
+	
+
+// Comment out your code after you finish.
+
+/* ========== *
+* Challenge 20 *
+* =========== */
+	
+	console.log('--------Challenge 20');
+// Construct a for loop below that prints only even numbers in ascending order.
+	for(let c=1; c<=10; c++){
+    if((c%2)==0){
+    console.log(c);   
+    }
+	}
+
+// Comment out your code after you finish.
+
+
+
+/* ========== *
+* Challenge 21 *
+* =========== */
+
+// Construct a for loop below that prints only odd numbers in descending order.
+	
+	console.log('--------Challenge 21');
+	for(let d=10; d>=1; d--){
+    if((d%2)!=0){
+    	console.log(d);   
+		}
+	}
+
+// Comment out your code after you finish.
+
+
+
+/* ========== *
+* Challenge 22 *
+* =========== */
+
+// Construct a nested for loop that increments the counter variable.
+	console.log('--------Challenge 22');
+  const outer = [1, 2, 3];
+  let counter = 0;
+
+  for (let f = 0; f < outer.length; f += 1) {
+  	let nestedLength 	= outer[f];
+    let innerLength 	= f;
+   // construct your second for loop below (hint: use the innerLength element as the inner loops condition)
+    for(let k = 0; k<= innerLength; k++){  
+    // inside of your nested for loop increment the counter on every iteration
+			counter = counter + 1;
+    }
+  }
+
+// Uncomment the line below to test your code
+		console.log(counter);
+// Should print the number 6
+
+
+/* ========== *
+* Challenge 23 *
+* =========== */
+
+// Construct a while loop below that prints the numbers 1 to 5.
+  console.log('--------Challenge 23');
+	let i = 1;
+  while(i<=5){
+    console.log(i);
+    i++;
+  }
+
+// Comment out your code after you finish.
+
+
+
+/* ========== *
+* Challenge 24 *
+* =========== */
+
+// Construct a while loop below that prints the numbers 5 to 10 in descending order.
+	console.log("--------Challenge 24");
+	let h = 10;
+	let j = 5;
+	while(j<=h){
+		console.log(h);
+    h--;
+  }
+
+// Comment out your code after you finish.
