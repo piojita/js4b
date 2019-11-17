@@ -1,0 +1,118 @@
+/* ========== *
+* Challenge 25 *
+* =========== */
+
+// ADD CODE HERE
+  function printDriverHeight(){
+    console.log("the driver's height");
+  }
+
+
+// Uncomment the line below to test your code
+	// printDriverHeight();
+// should print the driver's height
+
+
+/* ========== *
+* Challenge 26 *
+* =========== */
+
+// ADD CODE HERE
+	function printNavigatorName(){
+    console.log("the navigator's name");
+  }
+// Uncomment the line below to test your code
+	//printNavigatorName();
+// should print the navigator's name
+
+
+/* ========== *
+* Challenge 27 *
+* =========== */
+
+// ADD CODE HERE
+	function printName(name){
+    console.log(`the driver's name is ${name}`);
+  }
+	
+// When you run your code, it should print the driver's name followed by the navigator's name
+	//printName('vivi');
+
+
+
+/* ========== *
+* Challenge 28 *
+* =========== */
+
+// ADD CODE HERE
+	function printGroupName(driverName, navigatorName){
+    console.log(`${driverName} and ${navigatorName}`);
+  }
+// Uncomment the line below to test your code
+ 	//printGroupName('Sonny', 'Cher')
+// should print 'Sonny and Cher'
+
+
+/* ========== *
+* Challenge 29 *
+* =========== */
+
+// ADD CODE HERE
+	function multiplyHeight(driverHeight, navigatorHeight){
+    return multiplyHeight = driverHeight * navigatorHeight;
+  }
+	
+// Uncomment the line below to test your code
+		//console.log('Challenge 5:', multiplyHeight(66, 72) === 4752)
+// should print 'Challenge 5: true'
+
+
+/* ========== *
+* Challenge 30 *
+* =========== */
+
+// ADD CODE HERE
+	function square(number){
+    return number * number;
+  }	
+
+// Uncomment the line below to test your code
+	 //console.log('Challenge 6:', square(3) === 9 && square(-4) === 16)
+// should print 'Challenge 6: true'
+
+
+/* ========== *
+* Challenge 31 *
+* =========== */
+
+// ADD CODE HERE
+	function getArea(radius){
+     return 3.14 * (radius*radius);
+  }
+
+// Uncomment the line below to test your code
+	//console.log('Challenge 7:', getArea(5) === 78.5)
+// should print 'Challenge 7: true'
+
+
+/* ========== *
+* Challenge 32 *
+* =========== */
+const myFavFoods = ['Thai', 'Italian', 'Korean']
+
+// ADD CODE HERE
+	myFavFoods.push('Mexican');
+// Uncomment the line below to test your code
+	//console.log(myFavFoods); 
+// should return ['Thai', 'Italian', 'Korean', 'Mexican']
+
+
+/* ========== *
+* Challenge 33 *
+* =========== */
+const fruits = ['banana', 'apple', 'pear']
+
+// ADD CODE HERE
+	fruits.shift();
+// Uncomment the line below to test your code
+	console.log(fruits); // should return ['apple', 'pear']
